@@ -1,0 +1,253 @@
+body{
+    background-color: rgb(31, 29, 29);
+  margin: 0;
+    
+    
+
+}
+header{
+    max-width: 100%;
+    min-height: 140px ;
+    background-color: rgb(255, 255, 255);
+    margin: 0 ;
+    display: flex;
+}
+h1{
+    margin-left: 160px;
+}
+.stoixeia{
+background-color: #ffffff;
+min-height: 150px;
+margin-left: 250px;
+margin-top: 20px;
+    
+}
+.stoixeia .fa-mobile-phone{
+      font-size: 50px;
+      position: relative;
+      margin-top: 5px;
+      line-height: 75px;
+}
+.text{
+    margin-left: 25px;
+    margin-top: -60px;
+}
+.meta{
+    min-height: 40px;
+    background-color: #efefef;
+}
+.meta button{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    margin-left : 6em;
+    
+}
+.meta button .st :hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.box_cart{
+    position: relative;
+    right: 100px;
+    top: 80px;
+    background-color:rgb(255, 255, 255);
+    min-width: 380px;
+    height: 96px ;
+    margin-right: 70px;
+    align-items: center;
+    justify-content: center;
+
+}
+.kala{
+     border: solid rgb(2, 2, 2)  0.5px;
+    width: 250px;
+    font-weight: 500;
+    margin-left: 20px;
+    
+   
+    
+}
+
+#search{
+    border: none;
+    font-size: small;
+    align-items: center;
+    text-align: left;
+    justify-content:left ;
+    height: 40px;
+    color: none;
+    border-right-style: black solid;
+    margin-left: 2px;
+    outline: none;
+    
+}
+
+#searchgo{
+    border:0px
+}
+.ni{
+    position:  fixed;
+    min-width: 380px;
+    min-height: 15.5%;
+    margin-top: -15px;
+    
+    
+}
+.ni ul{
+    margin-left: -40px;
+   
+}
+.ni li {
+    display: inline-block;
+    margin: 0px;
+    
+    
+    
+    
+}
+.ni li a {
+
+     padding-top: 15px;
+     padding-left: 5px;
+     padding-right: 15px;
+     padding-bottom: 15px;
+    color:black;
+    background-color: white ;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.ni   li :hover{
+ background-color: black;
+ color: white;
+}
+.nik{
+    margin-left: 5px;
+}
+.navbar
+{
+    background-color: #1a1a1a;
+      align-items: center;
+      justify-content: center;
+    height:48px;
+    width: 100%;
+    
+    
+} 
+.navbar li{
+ list-style: none;
+ display:inline-block;
+padding: 10px 10px 5px;
+position: relative;
+min-width: 125px;
+
+}
+
+.navbar li a {   
+    text-decoration: none;
+    color: white;
+    padding: 20px 2px 20px;
+   font-size: 16px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+}
+.navbar li  :hover{
+    background-color: white;
+    color: black;
+    transition: 6ms;
+    width: 125px;
+}
+
+.apostash{
+    margin:0;
+    padding: 0;
+    margin-left: 9em;
+   
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.content{
+    position: absolute;
+    display: none;
+    max-width: 132px;
+    z-index: 1;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 11px;
+    list-style: none;
+
+     
+}
+.content li a {
+    display: block;
+    float: none;
+    text-decoration: underline;
+    color: rgb(209, 25, 25);
+    text-align: center;
+    max-width: 100px;
+    margin-left: -12px;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+
+.dropdown:hover .content{
+    display:block;
+
+}
+
+.content1 {
+    position: relative;
+    display: none;
+    max-width: 150px;
+    max-height: 150px;
+    background-color:rgb(255, 255, 255);
+    text-align: left;
+    border:  solid  1px;
+    align-items: left;
+
+
+}
+
+
+.content1 li {
+    border-bottom: 2px dotted;
+    
+    
+
+}
+.content1 li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    max-width: 90px;
+    align-items: center;
+    
+   
+}
+.content1 li:last-child{
+    border-bottom: none;
+    width: 200px;
+}
+.content1 li :hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+.dropdown1{
+    position: relative;
+    display: inline-block;
+ }
+
+ .content1 :hover{
+    position: relative;
+}
+.dropdown1:hover .content1{
+    display:block;
+}

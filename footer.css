@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(196, 45, 45);
+    position: relative;
+}       
+
+footer{
+background-color: #242424;
+position: relative;
+
+max-width: 100%;
+max-height: 100%;
+
+
+
+}
+#eggrafh{
+    background-color: #404040;
+    border-color: transparent;
+    border: solid 2px transparent;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    height: 100%;
+    width: 175px;
+    margin-left: -7px;
+    color: white;
+}
+#eggrafh:hover{
+    color: #404040;
+    background-color: white;
+   
+
+}
+#email{
+    background: #191919;
+    border: solid 2px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 100%;
+    width: 465px;
+    border-color: transparent ;
+}
+
+.boxOFfooter{
+    width: 650px;
+    height: 53px;
+    background-color: transparent;
+    position: relative;
+    left: 30%;
+    
+}
+
+.plhrofories_footer{
+    display: flex;
+      width:100%;
+        position: relative;
+    background:#1a1a1a repeat scroll 0 0;
+    border-bottom: solid 1px white;
+    margin-top: 50px;
+}
+
+
+.plhrofories_footer ul{
+    margin-left: 100px;
+}
+.plhrofories_footer ul li {
+    list-style: none;
+    width: auto;
+    background-color: red;
+   
+}
+
+.plhrofories_footer ul li a {
+    color: black;
+    width: 100%;
+    text-decoration: none;
+    transition: 3s;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+
+.plhrofories_footer h4{
+    font-size: 20px;
+    color: white;
+    font: inherit;
+}
+
+.img1{
+    width: 100px;
+    height: 50px;
+}
+.column_img{
+    display: block;
+    position: absolute;
+    width: 20%;
+   line-height: 2em;
+     
+    right: 0;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+    margin-top: 42px;
+   
+}
+#fa_properties{
+    margin-right: 2px;
+    transition: 4s;
+}
+.plhrofories_footer ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.plhrofories_footer ul li a:hover #fa_properties{
+    color: white;
+    text-decoration: underline;
+}
+
+.end_footer{
+    position: relative;
+    margin-top: 4%;
+    margin-left: 35%;
+}

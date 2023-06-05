@@ -1,0 +1,474 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.topbar{
+    min-height: 37px;
+    max-width: 100%;
+    background-color: #efefef;
+    text-decoration: none;
+    position: relative;
+}
+
+.apostash{
+    margin-left: 20%;
+    background-color: transparent;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.hover_metafrashs{
+    background-color:transparent;
+    color: black;
+    text-align: center;
+    border: none;
+    
+
+}
+.hover_metafrashs:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header{
+    max-width: 100%;
+    min-height: 183px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-top: 45px;
+    
+}
+.boxofstoixeia{
+    min-height: 112px;
+    min-width: 1140px;
+    position: relative; 
+   background-color: black;   
+   align-items: center;
+   justify-content: center;
+   background-color: transparent;
+   margin: 0px 0px 40px 100px;
+  
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    margin-left: 120px;
+    margin-top: 0.8%;
+    position: absolute;
+}
+
+.stoixeia{
+    display: block;
+    max-width: 300.983;
+    max-height: 100.6;
+    margin-left: 580px;
+    position: relative;
+  
+}
+.thlefwno{
+    border: none;
+    display: block;
+    color : black;
+    margin-left : 20px;
+    font-size: 25;
+    color: #a30411;
+    position: relative;
+    margin: 0;
+    margin-top: 30px;
+    
+}
+.stoixeia button {
+       
+    text-decoration:  none;
+    background-color: transparent;
+    min-width: 20px;
+}
+
+.wrapofsearching{
+ min-width: 380px;
+ min-height: 95.6px;
+ background-color: transparent;
+ position: absolute;
+left: 920;
+ top :10;
+ z-index: 2;
+}
+#phone_hover{
+    color: black;
+    position: relative;
+    font-size: 48px;
+}
+#phone_hover:hover{
+   font-size: 50px;
+
+}
+
+#searchgo{
+   
+    right: 40;
+    top: 0;
+    position: absolute;
+    border: solid 2px black;
+    padding: 10px 90px 14px 10px ;
+    border-right: none;
+
+    
+   
+}
+#searchgo:focus {
+    outline:none;
+  }
+
+#searchgo:hover{
+    border: rgb(87, 159, 246) solid 2px;
+    border-right: none;
+}
+.fakos{
+ background-color:transparent;
+ right: 8;
+
+ border: solid 2px black;
+ border-left: none;
+ position: absolute;
+ top: 0;
+ 
+}
+
+.boxofaccount{
+    min-width: 308px;
+    min-height: 44px;
+    background-color:transparent;
+    margin-top: 50px;
+}
+
+.boxofaccount ul { 
+    list-style: none;
+    
+   
+}
+.boxofaccount ul li {
+    display:inline-block;
+    margin-left: 4px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color:transparent;
+   
+}
+.boxofaccount ul li a { 
+    text-decoration: solid;
+    color: black ;
+    font-size: 10px;
+}
+.boxofaccount ul li:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+} 
+.boxofaccount ul ul.plhrofories{
+    color: black;
+    display: none;
+   border: 1px solid black ;
+    position: absolute;
+    margin-right: 10px;
+    background-color: white;
+    z-index: 1;
+    margin: 0;
+    margin-left: -14px;
+    margin-top: 10px; 
+    transition: 4s;
+    
+    
+    
+}
+
+.boxofaccount ul li:hover ul.plhrofories{display: block;}
+
+.boxofaccount ul li:hover ul.plhrofories li { width: 100% ;min-height:50%;border-bottom: 1px dashed;padding: 10px 20px; margin-left: -40px;  ;
+}
+
+
+.boxofaccount ul li ul.plhrofories li:last-child{border-bottom: none;}
+
+.boxofaccount ul li ul.plhrofories li a{
+    color:black ;
+    margin: 0;
+    transition-duration: 4s;
+    font-size: 15px;
+    
+   
+ 
+}
+.boxofaccount ul li ul.plhrofories li:hover{
+    background-color:white;
+    color: black;
+    padding: 10px 20px;
+}
+.boxofaccount ul li ul.plhrofories li a:hover{
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    color:black;
+    transition: 0.9s;
+       
+
+}
+
+.boxofaccount ul li ul.plhrofories li a:hover #allages {
+    transform: rotateY(200deg);
+}
+
+.space{
+    margin-left: 10px;
+}
+
+
+#totalnav {
+    background-color: black;
+    min-width: 100%;
+    max-height:48;
+    margin: 0; 
+    padding: 0;
+    position: absolute;
+    top: 160px;
+    
+    
+
+   
+}
+
+#navabar{
+    margin-left: 150px;
+    
+   
+}
+
+#navabar ul {
+    list-style: none;
+    
+}
+
+#navabar ul li {
+    display: inline-block;
+    margin: 0;
+    
+}
+
+#navabar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+#navabar ul li a:hover {
+    background-color: white;
+    color: black;
+   
+
+}
+
+
+
+
+
+ul#dropdownofnavbar{
+    display: none;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    background-color: white;
+     width: 9.5rem;
+    height: 6rem;
+    margin-top: 30px;
+    margin: 0;
+    padding: 0;
+   
+}
+ul#dropdownofnavbar li{
+    width: 100%;
+    padding-right: 20px;
+    margin-top: 25px;
+    
+    
+
+    
+  
+}
+ #navabar ul li:hover ul#dropdownofnavbar{  display: block; }
+#navabar ul li:hover ul#dropdownofnavbar li a{ 
+    margin: 0; 
+    position: relative;
+   color: black;
+   text-decoration: none; 
+   background-color: white;
+   padding: 1rem;
+   width: 100%;
+}
+#navabar ul li:hover ul#dropdownofnavbar li a:hover{
+    text-decoration: underline;
+} 
+    
+section{
+   
+    height: 105vh;
+    width: 100%;
+}
+
+
+footer{
+background-color: #242424;
+position: relative;
+min-width: 100%;
+min-height: 100%;
+
+
+
+
+}
+#eggrafh{
+    background-color: #404040;
+    border-color: transparent;
+    border: solid 2px transparent;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    height: 100%;
+    width: 175px;
+    margin-left: -7px;
+    color: white;
+}
+#eggrafh:hover{
+    color: #404040;
+    background-color: white;
+   
+
+}
+#email{
+    background: #191919;
+    border: solid 2px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 100%;
+    width: 465px;
+    border-color: transparent ;
+}
+
+.boxOFfooter{
+    width: 650px;
+    height: 53px;
+    background-color: transparent;
+    position: relative;
+    left: 30%;
+    
+}
+
+.plhrofories_footer{
+    display: flex;
+      width:100%;
+    position: relative;
+    background:rgba(0, 0, 0, 0.467);
+    border-bottom: solid 1px white;
+    margin-top: 50px;
+}
+
+
+.plhrofories_footer ul{
+    margin-left: 100px;
+}
+.plhrofories_footer ul li {
+    list-style: none;
+    width: auto;
+    background-color: red;
+   
+}
+
+.plhrofories_footer ul li a {
+    color: wheat;
+    width: 100%;
+    text-decoration: none;
+    transition: 3s;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+
+.plhrofories_footer h4{
+    font-size: 20px;
+    color: white;
+    font: inherit;
+}
+
+.img1{
+    width: 100px;
+    height: 50px;
+}
+.column_img{
+    display: block;
+    position: absolute;
+    width: 20%;
+   line-height: 2em;
+     
+    right: 0;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+    margin-top: 42px;
+   
+}
+#fa_properties{
+    margin-right: 2px;
+    transition: 4s;
+}
+.plhrofories_footer ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.plhrofories_footer ul li a:hover #fa_properties{
+    color: white;
+    text-decoration: underline;
+}
+
+.end_footer{
+    position: relative;
+    margin-top: 4%;
+    margin-left: 35%;
+}
+
+
+
+.slide1{
+    display: none;
+    cursor: pointer;
+    position: relative;
+margin: 0;
+    margin-top: 2px;
+    z-index: -1;
+    
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    cursor: pointer;
+  }
+  
+ @keyframes fade {
+    from {opacity: 0.3} 
+    to {opacity: 1}
+ }
+
+ .active1{
+     background-color: white;
+ }
